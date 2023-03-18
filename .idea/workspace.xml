@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e42cc6f1-26a9-43f3-b58b-7fd42ec88d97" name="Changes" comment="Modificacion primer Test">
+    <list default="true" id="e42cc6f1-26a9-43f3-b58b-7fd42ec88d97" name="Changes" comment="Test acelerar velocidad">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Coche.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Coche.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/TestCoche.java" beforeDir="false" afterPath="$PROJECT_DIR$/tests/TestCoche.java" afterDir="false" />
@@ -54,7 +54,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestCoche.test_al_acelerar_un_coche_su_velocidad_aumenta">
+  <component name="RunManager" selected="JUnit.TestCoche">
     <configuration name="TestCoche" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD Practica Coche" />
       <option name="PACKAGE_NAME" value="" />
@@ -74,6 +74,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TestCoche.test_al_decelerar_un_coche_su_velocidad_disminuye" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD Practica Coche" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCoche" />
+      <option name="METHOD_NAME" value="test_al_decelerar_un_coche_su_velocidad_disminuye" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCoche.test_al_decelerar_un_coche_su_velocidad_no_puede_ser_menor_que_cero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="TDD Practica Coche" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestCoche" />
+      <option name="METHOD_NAME" value="test_al_decelerar_un_coche_su_velocidad_no_puede_ser_menor_que_cero" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestCoche.test_crear_coche" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="TDD Practica Coche" />
       <option name="PACKAGE_NAME" value="" />
@@ -86,8 +106,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestCoche.test_al_acelerar_un_coche_su_velocidad_aumenta" />
         <item itemvalue="JUnit.TestCoche" />
+        <item itemvalue="JUnit.TestCoche.test_al_decelerar_un_coche_su_velocidad_no_puede_ser_menor_que_cero" />
+        <item itemvalue="JUnit.TestCoche.test_al_decelerar_un_coche_su_velocidad_disminuye" />
+        <item itemvalue="JUnit.TestCoche.test_al_acelerar_un_coche_su_velocidad_aumenta" />
         <item itemvalue="JUnit.TestCoche.test_crear_coche" />
       </list>
     </recent_temporary>
@@ -101,7 +123,7 @@
       <option name="presentableId" value="Default" />
       <updated>1679083437669</updated>
       <workItem from="1679083439133" duration="5871000" />
-      <workItem from="1679116207485" duration="1827000" />
+      <workItem from="1679116207485" duration="4308000" />
     </task>
     <task id="LOCAL-00001" summary="Primer Test">
       <created>1679088608422</created>
@@ -117,7 +139,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679090418255</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test acelerar velocidad">
+      <created>1679118377910</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1679118377910</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -137,6 +166,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Primer Test" />
     <MESSAGE value="Modificacion primer Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modificacion primer Test" />
+    <MESSAGE value="Test acelerar velocidad" />
+    <option name="LAST_COMMIT_MESSAGE" value="Test acelerar velocidad" />
   </component>
 </project>
